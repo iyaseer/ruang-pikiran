@@ -1,3 +1,16 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://yabertz.site/"
+languageCode = "id-ID"
+title = "Iyas Mawardi"
+theme = "hugo-book"
+
+disablePathToLower = true
+enableGitInfo = false
+
+[params]
+  BookTheme = "auto"
+  BookToC = true
+  BookSearch = true
+  BookSection = "*"
+  BookDateFormat = "2 January 2006"
+  BookComments = false
+  BookServiceWorker = false
