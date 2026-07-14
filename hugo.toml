@@ -1,0 +1,57 @@
+baseURL = "https://USERNAME.github.io/ruang-pikiran/"
+languageCode = "id-ID"
+defaultContentLanguage = "id"
+title = "Iyas Mawardi"
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 28
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "kategori"
+
+[permalinks]
+  artikel = "/artikel/:slug/"
+  cerita = "/cerita/:slug/"
+  buletin = "/buletin/:slug/"
+
+[params]
+  author = "Iyas Mawardi"
+  description = "Catatan, cerita, dan hal-hal yang ingin saya simpan."
+  tagline = "Catatan personal tentang ide, cerita, dan hal-hal kecil yang layak diingat."
+  intro = "Saya menulis untuk menyimpan pikiran sebelum hilang, merapikan pengalaman, dan membagikan hal-hal yang mungkin berguna bagi orang lain."
+  footerText = "Dibuat dengan Hugo."
+
+[menu]
+  [[menu.main]]
+    name = "Artikel"
+    pageRef = "/artikel"
+    weight = 10
+  [[menu.main]]
+    name = "Cerita"
+    pageRef = "/cerita"
+    weight = 20
+  [[menu.main]]
+    name = "Buletin"
+    pageRef = "/buletin"
+    weight = 30
+  [[menu.main]]
+    name = "Tentang"
+    pageRef = "/tentang"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

@@ -1,0 +1,11 @@
+<article class="post-row">
+  <div class="post-row-meta">
+    <time datetime="{{ .Date.Format `2006-01-02` }}">{{ .Date | time.Format ":date_medium" }}</time>
+    <span>{{ .Section | title }}</span>
+  </div>
+  <div class="post-row-content">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with (.Description | default .Summary | plainify) }}<p>{{ . | truncate 180 }}</p>{{ end }}
+  </div>
+  <a class="post-arrow" href="{{ .RelPermalink }}" aria-label="Baca {{ .Title }}">→</a>
+</article>

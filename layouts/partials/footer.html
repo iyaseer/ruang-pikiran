@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <strong>{{ site.Title }}</strong>
+      <p>{{ site.Params.footerText }}</p>
+    </div>
+    <div class="footer-links">
+      <a href="{{ `index.xml` | relURL }}">RSS</a>
+      <a href="{{ `tags/` | relURL }}">Tag</a>
+      <a href="{{ `kategori/` | relURL }}">Kategori</a>
+    </div>
+    <p class="copyright">© {{ now.Year }} {{ site.Params.author }}</p>
+  </div>
+</footer>
