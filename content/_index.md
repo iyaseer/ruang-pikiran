@@ -1,16 +1,14 @@
-\---
-
+---
 title: "Iyas Mawardi"
-
 type: docs
+---
 
-\---
+## Selamat datang
 
+Saya menulis tentang pengalaman, gagasan, keresahan, dan hal-hal kecil yang ingin saya simpan lebih lama.
 
+Website ini berisi:
 
-Selamat datang di ruang pribadi saya.
-
-
-
-Di sini saya menulis artikel, cerita, catatan, dan berbagai hal yang ingin saya simpan lebih lama.
-
+- **Artikel** untuk tulisan dan opini.
+- **Cerita** untuk pengalaman dan narasi personal.
+- **Pojok Buletin** untuk kumpulan catatan singkat dan hal menarik.

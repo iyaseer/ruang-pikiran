@@ -1,6 +1,11 @@
 ---
-{}
+
+title: "Artikel"
+
+weight: 10
+
+bookCollapseSection: true
+
 ---
-Artikel Pertama yang saya terbitkan melalui website menggunakan sitepins
 
 ​

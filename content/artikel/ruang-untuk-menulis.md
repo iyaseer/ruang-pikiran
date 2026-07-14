@@ -1,4 +1,4 @@
-\---
+---
 
 title: "Ruang untuk Menulis"
 
@@ -8,13 +8,9 @@ weight: 1
 
 tags:
 
-&#x20; - catatan
-
-&#x20; - personal
-
 draft: false
 
-\---
+---
 
 
 
