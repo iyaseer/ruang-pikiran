@@ -5,6 +5,8 @@ title = "Iyas Mawardi"
 enableRobotsTXT = true
 enableEmoji = true
 summaryLength = 28
+enableGitInfo = true
+disablePathToLower = true
 
 [pagination]
   pagerSize = 10
@@ -17,13 +19,15 @@ summaryLength = 28
   artikel = "/artikel/:slug/"
   cerita = "/cerita/:slug/"
   buletin = "/buletin/:slug/"
-
 [params]
-  author = "Iyas Mawardi"
-  description = "Catatan, cerita, dan hal-hal yang ingin saya simpan."
-  tagline = "Catatan personal tentang ide, cerita, dan hal-hal kecil yang layak diingat."
-  intro = "Saya menulis untuk menyimpan pikiran sebelum hilang, merapikan pengalaman, dan membagikan hal-hal yang mungkin berguna bagi orang lain."
-  footerText = "Dibuat dengan Hugo."
+  BookTheme = "auto"
+  BookToC = true
+  BookSearch = true
+  BookSection = "*"
+  BookDateFormat = "2 January 2006"
+  BookComments = false
+  BookPortableLinks = true
+  BookServiceWorker = false
 
 [menu]
   [[menu.main]]
